@@ -266,6 +266,22 @@ body {
     transform: scale(1.4);
 }
 
+.caption{
+    padding-bottom: 20px;
+    color: black;
+    background-color: rgba(245, 222, 179, 0.819);
+    text-align: center;
+    font-weight: 400;
+}
+.caption a{
+    color: rgb(68, 117, 181);
+    text-decoration: none;
+}
+.caption span{
+    color: red;
+    font-size: 25px;
+}
+
 @media (max-width:1200px) {
     .header {
         max-width: 100%;
